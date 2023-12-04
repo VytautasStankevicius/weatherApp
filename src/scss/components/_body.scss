@@ -1,0 +1,35 @@
+body{
+  background-color: aqua;
+}
+
+.wrapper {
+  margin: 20px;
+}
+
+.forecast {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  .day-forecast {
+    background: #1d2837;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 170px;
+    text-align: center;
+    .city {
+      display: inline-block;
+    }
+    .time {
+      margin-left: 5px;
+      display: inline-block;
+    }
+    .temperature {
+      font-size: 30px;
+    }
+    .weather-state {
+      text-transform: capitalize;
+    }
+  }
+}
